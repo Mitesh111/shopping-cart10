@@ -14,7 +14,7 @@ $('#loginUser').click(() => {
                if (data.success) {
                           alert("Successfully Logged In")
                           const PORT=process.env.PORT||1212
-                          window.location="http://localhost:${PORT}/productList.html"
+                          window.location="/productList.html"
                     }else {
                            alert('Some error occurred')
                           }
